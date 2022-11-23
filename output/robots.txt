@@ -1,4 +1,0 @@
-Sitemap: http://www.willen.be/sitemapindex.xml
-
-User-Agent: *
-Host: www.willen.be
