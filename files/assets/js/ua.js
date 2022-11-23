@@ -14,7 +14,6 @@
 
 /* ***** BEGIN LICENSE BLOCK *****
  * Licensed under Version: MPL 1.1/GPL 2.0/LGPL 2.1
- * Full Terms at http://bclary.com/lib/js/license/mpl-tri-license.txt
  *
  * Software distributed under the License is distributed on an "AS IS" basis,
  * WITHOUT WARRANTY OF ANY KIND, either express or implied. See the License
