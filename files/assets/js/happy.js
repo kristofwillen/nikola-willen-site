@@ -42,17 +42,20 @@ function writeNextBirthday(list) {
       var daysToClosest=888;
       var closest = 0;
       var i = 0;
+      document.write('<ul>')
       while (i < 84) {
           if (daysFromToday(list[i].date,list[i].month)<daysToClosest) {
                   daysToClosest=daysFromToday(list[i].date,list[i].month);
                   closest=i;
 if (daysToClosest==0)
-              document.write("<p><b>Vandaag verjaart "+list[closest].person + "!</b></p>");
+              document.write("<li><b>"+list[closest].person + "</b>, vandaag !</li>");
 else if (daysToClosest < 30)
-document.write("<p>Binnenkort verjaart <b>"+list[closest].person+"</b>, op "+list[closest].date + "/" + list[closest].month + ".</p>");
+document.write("<li><b>"+list[closest].person+"</b> op "+list[closest].date + "/" + list[closest].month + ".</li>");
                 }
          i += 1;
       }
+
+      document.write('</ul>')
 }
 
 blist=new birthdaylist()
