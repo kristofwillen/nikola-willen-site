@@ -30,11 +30,8 @@
     <div class="content container" id="content">
        {% block content %}{% endblock %}
     </div>
-    <script>if (window.location.pathname == '/') {
-      mb = document.getElementById('content')
-      mb.innerHTML += "<b>FOO</b>"
-      }
-    </script>
+
+
     {{ base.late_load_js() }}
     {% if date_fanciness != 0 %}
         <!-- fancy dates -->

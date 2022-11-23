@@ -8,3 +8,5 @@
 .. type: text
 
 Een gelukkige verjaardag aan volgende personen:
+
+{{% happy days %}}
