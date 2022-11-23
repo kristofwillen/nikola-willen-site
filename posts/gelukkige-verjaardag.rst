@@ -7,6 +7,6 @@
 .. description: 
 .. type: text
 
-Een gelukkige verjaardag aan volgende personen:
+Onderstaande familieleden mogen binnenkort een extra kaarsje uitblazen:
 
 {{% happy days %}}
