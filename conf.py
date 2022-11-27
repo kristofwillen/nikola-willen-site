@@ -25,7 +25,7 @@ SITE_URL = "http://www.willen.be/"
 # If not set, defaults to SITE_URL
 # BASE_URL = "http://www.willen.be/"
 BLOG_EMAIL = ""
-BLOG_DESCRIPTION = "Dit is de website van de familie Willen (Oudenaarde)."  # (translatable)
+BLOG_DESCRIPTION = "Dit is de website van de familie Willen."  # (translatable)
 
 # Nikola is multilingual!
 #

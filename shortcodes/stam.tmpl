@@ -1,0 +1,88 @@
+<script type="module">
+  import mermaid from 'https://unpkg.com/mermaid@9/dist/mermaid.esm.min.mjs';
+  mermaid.initialize({ startOnLoad: true });
+</script>
+
+<div class=mermaid>
+graph LR;
+%% Colors %%
+classDef blue fill:#66deff,stroke:#000,color:#000
+classDef green fill:#6ad98b,stroke:#000,color:#000
+classDef lila fill:#AA55FF,stroke:#000,color:#000
+classDef orange fill:#ffaa55,stroke:#000,color:#000
+classDef yellow fill:#ffffaa,stroke:#000,color:#000
+
+  TJW(Theodore Jozef Willen x Maria Sidonia Coussement):::lila-->SOW(Sofie Willen)
+  SOW-->SWJDT(o);
+  JDT(??? Toussin)-->SWJDT(o);
+  SWJDT-->HT(Helene Toussin);
+  SWJDT-->PT(Paul Toussin);
+  SWJDT-->RT(Robert Toussin);
+  LV(Leopold Verwerft)-->SWLV(o);
+  SOW-->SWLV;
+  SWLV-->WV(Willy Verwerft);
+  TJW-->OW(Octaaf Willen x Maria Rosalia Van Coster):::blue;
+  OW-->GAW(Gaston Willen x Adrienne Blommaert):::orange;
+  GAW-->ANW(André Willen x Anne-Marie Ameels):::green;
+  ANW-->MAW(Marianne Willen x Koen Vermeersch):::yellow;
+  MAW-->Cleo;
+  MAW-->Margot;
+  GAW-->MOW(Monique Willen x Herman Teirlinck):::green;
+  MOW-->GET(Geert Teirlinck x Linda Van Parijs):::yellow;
+  GET-->Bram;
+  GET-->Stef;
+  MOW-->CHW(Christel Willen x Gert):::yellow;
+  CHW-->Lisa;
+  MOW-->Bart:::yellow;
+  GAW-->BEW(Bernard Willen x Marie-Claire Teirlinck):::green;
+  BEW-->FIW(Filip Willen x Claudine De Munster):::yellow;
+  BEW-->MIW(Mia Willen x Stefaan Sobry):::yellow;
+  BEW-->WIW(Wim Willen x Greet De Bruyne):::yellow;
+  FIW-->Michelle;
+  FIW-->Iris;
+  FIW-->Julie;
+  FIW-->Cedric;
+  MIW-->Emma;
+  MIW-->Thijs;
+  WIW-->Jules;
+  WIW-->Anna;
+  WIW-->Remi;
+  GAW-->CAW(Calix Willen x Agnes Van Tyghem):::green;
+  CAW-->PEW(Peter Willen x Nathalie Vermassen):::yellow;
+  CAW-->KOW(Koen Willen x Valerie Vermassen):::yellow;
+  PEW-->Hannelore;
+  PEW-->Lukas;
+  KOW-->Justine;
+  KOW-->Thibaut;
+  GAW-->ERW(Eric Willen x Marleen Bruneel):::green;
+  ERW-->KRW(Kristof Willen x Martine De Wilde):::yellow
+  ERW-->VEW(Veroniek Willen x Raf Vanhoutte):::yellow
+  KRW-->Luna;
+  KRW-->Lenthe;
+  GAW-->PAW(Paul Willen x Agnes Pot):::green;
+  PAW-->HIW(Hilde Willen x Steven Vandeputte):::yellow;
+  PAW-->ELW(Els Willen):::yellow;
+  PAW-->LEW(Leen Willen x Kristof Vanacker):::yellow;
+  PAW-->STW(Steven Willen):::yellow;
+  STW-->LW(Luna);
+  HIW-->Bert;
+  HIW-->Tim;
+  ELW-->Nienke;
+  ELW-->Nils;
+  LEW-->Wout;
+  LEW-->Fleur;
+  GAW-->JOW(José Willen x Anne Defeyter):::green;
+  JOW-->SIW(Stijn Willen x Liesbeth):::yellow;
+  SIW-->Hazel;
+  SIW-->Woud;
+  GAW-->MRW(Marc Willen x Christine Dumortier):::green;
+  MRW-->BNW(Benny Willen):::yellow;
+  MRW-->VIW(Virginie Willen):::yellow;
+  MRW-->ALW(Aline Willen):::yellow;
+  GAW-->CRW(Christine Willen x Willy De Baets):::green;
+  CRW-->KAW(Katrien Willen x Stefaan Thijs):::yellow;
+  KAW-->Joran;
+  KAW-->Jolien;
+  CRW-->MKW(Mieke Willen x Dirk Martens):::yellow;
+  MKW-->Lina;
+</div>
